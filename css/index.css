@@ -1,5 +1,6 @@
 body {
     user-select: none;
+    
 }
 
 /*navbar*/
@@ -278,9 +279,6 @@ canvas {
     padding-top: 2vh;
 }
 
-body {
-    overflow: scroll;
-}
 
 @media screen and (max-width: 1024px) {
     body {
