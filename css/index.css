@@ -9,7 +9,7 @@ body {
     position: fixed;
     z-index: 99999;
     width: 100%;
-    background-color: hsla(0, 0%, 0%, 0.525);
+    background-color: hsla(0, 0%, 0%, 0);
     overflow: hidden;
     transition: width 0.3s ease, height 0.3s ease;
 }
