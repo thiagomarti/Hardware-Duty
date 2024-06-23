@@ -9,9 +9,11 @@
 .card {
     width: 50%;
     height: auto;
-    border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow: 20px 20px 60px #bebebe,
+    border-radius: 20px;
+    background: #00004C;
+    box-shadow: 2px 0 0 #a30eff, -2px 0 0 #a30eff, 0 2px 0 #a30eff,
+        0 -2px 0 #a30eff, 1px 1px #a30eff, -1px -1px 0 #a30eff,
+        1px -1px 0 #a30eff, -1px 1px 0 #a30eff;
 }
 
 @media screen and (max-width: 750px) {
@@ -23,7 +25,7 @@
 .card h3 {
     text-align: center;
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 10px 0;
     font-size: 1.5em;
 }
@@ -33,5 +35,5 @@
     padding-right: 30px;
     padding-bottom: 20px;
     text-align: center;
-    color: rgb(0 0 0);
+    color: rgb(255, 255, 255);
 }

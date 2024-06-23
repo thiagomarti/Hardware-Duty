@@ -1,6 +1,13 @@
 body {
-    user-select: none;
     overflow-x: hidden;
+}
+
+img {
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 /*navbar*/
@@ -57,10 +64,12 @@ a:hover {
     border-right: var(--border-right) solid var(--animation-color);
     overflow: hidden;
     transition: 0.5s;
-    -webkit-text-stroke: 1px var(--animation-color);
 }
 
 .button:hover .hover-text {
+    text-shadow: 2px 0 0 #a30eff, -2px 0 0 #a30eff, 0 2px 0 #a30eff,
+        0 -2px 0 #a30eff, 1px 1px #a30eff, -1px -1px 0 #a30eff,
+        1px -1px 0 #a30eff, -1px 1px 0 #a30eff;
     width: 100%;
     filter: drop-shadow(0 0 23px var(--animation-color))
 }
