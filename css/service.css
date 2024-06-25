@@ -36,14 +36,29 @@ h2 {
   width: 90%;
   margin: 20px;
   text-align: center;
+  box-sizing: border-box; /* Asegúrate de que el padding y border no aumenten el ancho */  
 }
 
 @media screen and (min-width: 750px) {
   .tarjeta {
-    width: 300px;
+    width: calc(50% - 40px); /* 2 tarjetas por fila, 20px de margen a cada lado */
+    margin: 20px;
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .tarjeta {
+    width: calc(33.333% - 40px); /* 3 tarjetas por fila, 20px de margen a cada lado */
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .tarjeta {
+    width: calc(25% - 40px); /* 4 tarjetas por fila, 20px de margen a cada lado */
+    margin: 20px;
+  }
+}
 .circulo-icono {
   width: 80px;
   height: 80px;
